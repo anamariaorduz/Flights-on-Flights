@@ -1,0 +1,39 @@
+<style>
+  body {
+    display: grid;
+    grid-template-rows: 100px auto;
+  }
+  .nav-bar {
+    border: 3px solid green;
+    grid-template-rows: 50px 50px auto;
+  }
+  .main-content {
+    padding: 5px;
+    height: calc(100vh - 100px);
+    display: flex;
+  }
+  .side-bar {
+    width: 250px;
+    margin-right: 5px;
+  }
+  .flight-cards {
+    width: calc(100vw - 300px);
+    border: 3px solid black;
+  }
+  .filter {
+    height: 150px;
+    border-bottom: 1px solid grey;
+  }
+  .card {
+    height: 225px;
+  }
+  .advertise {
+    background-color: lightgrey;
+  }
+  span {
+      display: flex;
+  }
+  span div {
+      padding: 10px;
+  }
+</body>
